@@ -11,6 +11,6 @@ const UrlSchema = new mongoose.Schema({
     }
 });
 
-const ShortUrl = mongoose.model('HW81', UrlSchema);
+const ShortUrl = mongoose.model('Link', UrlSchema);
 
 module.exports = ShortUrl;
